@@ -1,0 +1,47 @@
+h1 {
+    color: transparent;
+    font-size: 80px;
+    text-transform: capitalize;
+    background-clip: text;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiT6merQiiMtB1qsYkAxDqfAJyav7DIuhLh0Hu4cmQ7FlmX36VVw3p&usqp=CAE&s);
+}
+h2 {
+    color: aqua;
+    font-size: 45px;
+    text-align: center;
+}
+p {
+    color: rgb(225, 221, 221);
+}
+h4 {
+     text-transform:capitalize ;
+     font-style: italic;
+     font-size: 20px;
+     color: rgb(226, 236, 227) ;
+}
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlfGVufDB8fDB8fHww);
+}
+form {
+    text-align: center;
+    background: rgb(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color:black;
+}
+input,select {
+    display: block;
+    margin: 10px auto;
+    padding:10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: color(srgb red green blue);
+    transition: all 0.4s ease-in-out;
+}
+input:focus,select:focus {
+    border-color: #00ffff;
+    box-shadow: 0 0 15px; 
+    transform: scale(1.02);
+    background-color:rgba(255,255,255,0.9);
+}
